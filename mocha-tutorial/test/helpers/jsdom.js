@@ -11,6 +11,7 @@ function copyProps(src, target) {
 }
 
 global.window = window;
+global.window.Date = Date; //https://github.com/testing-library/react-testing-library/issues/300
 global.document = window.document;
 global.navigator = {
   userAgent: 'node.js',

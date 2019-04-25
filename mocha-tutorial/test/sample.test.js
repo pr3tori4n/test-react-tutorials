@@ -1,5 +1,3 @@
-import React from 'react';
-
 // var assert = require('assert');
 describe('Simple as it gets', function () {
     describe('nothing', function () {
