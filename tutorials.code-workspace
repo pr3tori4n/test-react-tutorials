@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "jasmine-tutorial"
+		},
+		{
+			"path": "mocha-tutorial"
+		},
+		{
+			"path": "intern-tutorial"
+		},
+		{
+			"path": "jest-tutorial"
+		}
+	]
+}

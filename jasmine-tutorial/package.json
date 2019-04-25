@@ -1,0 +1,33 @@
+{
+  "name": "jasmine-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=development jasmine"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.4.0",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-preset-react-app": "^8.0.0",
+    "chai": "^4.2.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "ignore-styles": "^5.0.1",
+    "jasmine": "^3.4.0",
+    "jasmine-enzyme": "^7.0.2",
+    "jsdom": "^15.0.0"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
