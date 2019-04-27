@@ -1,6 +1,6 @@
-// import React from 'react';
-// import { mount } from 'enzyme';
-// import Foo from '../lib/Foo.js';
+import React from 'react';
+import { mount } from 'enzyme';
+import Foo from '../lib/Foo.js';
 
 describe("Sample", function() {
     it("should pass", function() {
@@ -8,8 +8,8 @@ describe("Sample", function() {
     });
 });
 
-// describe("React", function() {
-//     it("should render without failing", function() {
-//         mount(<Foo />);
-//     });
-// });
+describe("React", function() {
+    it("should render without failing", function() {
+        mount(<Foo />);
+    });
+});
