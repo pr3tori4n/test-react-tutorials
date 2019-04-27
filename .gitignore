@@ -1,3 +1,7 @@
 node_modules/
 **/package-lock.json
+# Karma generated test reports
 karma-tutorial/karma_html
+# Cypress generated images and video
+cypress-tutorial/cypress/screenshots
+cypress-tutorial/cypress/videos
