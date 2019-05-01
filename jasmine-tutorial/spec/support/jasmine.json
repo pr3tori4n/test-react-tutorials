@@ -1,14 +1,15 @@
 {
-  "spec_dir": "spec",
+  "spec_dir": "",
   "spec_files": [
-    "**/*[sS]pec.js"
+    "**/*[tT]est.js",
+    "!node_modules/**/*[tT]est.js"
   ],
   "helpers": [
-    "helpers/babel.js",
-    "helpers/enzyme.js",
-    "helpers/jsdom.js",
-    "helpers/exclude.js",
-    "helpers/**/*.js"
+    "spec/helpers/babel.js",
+    "spec/helpers/enzyme.js",
+    "spec/helpers/jsdom.js",
+    "spec/helpers/exclude.js",
+    "spec/helpers/**/*.js"
   ],
   "stopSpecOnExpectationFailure": false,
   "random": true
