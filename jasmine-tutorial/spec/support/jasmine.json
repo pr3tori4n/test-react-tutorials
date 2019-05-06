@@ -1,7 +1,7 @@
 {
   "spec_dir": "",
   "spec_files": [
-    "**/*[tT]est.js",
+    "components/**/*[tT]est.js",
     "!node_modules/**/*[tT]est.js"
   ],
   "helpers": [

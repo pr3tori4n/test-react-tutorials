@@ -4,5 +4,5 @@ module.exports = {
         'test/helpers/enzyme',
         'test/helpers/jsdom'
     ],
-    spec: ['**/*.test.js']
+    spec: ['./components/**/*.[tT]est.js']
 };
